@@ -125,18 +125,26 @@ a {
     align-items: center;
     margin-top: 10px;
     margin-bottom: 20px;
-    color: white;
-    background-color: rgb(116, 87, 143);
+    color:purple;
+    background-image: linear-gradient(360deg, rgb(175, 164, 187), white);
     padding: 15px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.h3{
+    margin: 10px;
+}
+.para{
+    width: 500px;
 }
 .h3 a h3{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: blueviolet;
 }
 .imgs{
-    width: 500px;
+    width: 200px;
     overflow: hidden;
     display: flex;
     justify-content: center;
